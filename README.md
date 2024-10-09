@@ -37,7 +37,7 @@
   <a href="https://www.facebook.com/Eric.Whois" alt="Facebook">
     <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook" />
   </a> 
-  <a href="https://zalo.me/Eric_Whois/" alt="Zalo">
+  <a href="https://zalo.me/84706784847/" alt="Zalo">
     <img width="48" height="48" src="https://img.icons8.com/color/48/zalo.png" alt="Zalo"/>
   </a>
   <a href="mailto:lydangthanhdat@gmail.com" alt="Email">
@@ -48,23 +48,6 @@
 <p align="center">
   <b>𝙼𝚊𝚗𝚗𝚎𝚛𝚜 𝙼𝚊𝚔𝚎𝚝𝚑 𝙼𝚊𝚗</b>
 </p>
-  
-# 🏦 How to transfer
-
-<img align="left">
-
-<img width="32" height="32" src="https://img.icons8.com/fluency/48/bank-building.png" alt="Bank"/> ![Transfer information](https://i.imgur.com/VYHtIeg.png)
-<p align="left">
-    <img width="25" height="25" src="https://github.com/user-attachments/assets/cc3a1539-dd05-48ba-8d8a-572dcf12e9e1" alt=" TECHCOMBANK"/> <b>&nbsp;<i>TECHCOMBANK&nbsp;&nbsp;·&nbsp;&nbsp;19037180300017</i></b>
-<br>
-  <img width="25" height="25" src="https://github.com/user-attachments/assets/b43c8a05-4db0-4347-97c6-e49ee165ddf4" alt=" MBBANK"/> <b>&nbsp;<i>MBBANK&nbsp;&nbsp;·&nbsp;&nbsp;9704229204217031658</i></b>
-     <br>
-  <img width="25" height="25" src="https://github.com/lydangthanhdat/MyProfile/assets/145395773/8825b4cc-370b-41e3-8f7d-ddce93134177" alt=" MOMO"/> <b>&nbsp;<i>MOMO&nbsp;&nbsp;·&nbsp;&nbsp;0706 784 847</i></b>
-     <br>
-  <img width="25" height="25" src="https://github.com/lydangthanhdat/MyProfile/assets/145395773/5536063c-2eec-4387-ab23-f1b51fb3d952" alt=" ZALOPAY"/> <b><i>&nbsp;ZALOPAY&nbsp;&nbsp;·&nbsp;&nbsp;0706 784 847</i></b>
-     <br>
- <br/>
-</p>
 
 # 🏆 Achievement
 ### Founder at 360VR Virtual Tour & Panoramic Exploration Project
@@ -72,11 +55,6 @@
 🎖️ Potential startup project at [<b>The contest "Finding ideas and projects of youth startups in Can Tho"</b>](https://www.doandcd.cantho.gov.vn/laws/detail/Cong-van-257-V-v-trien-khai-tham-gia-Cuoc-thi-Tim-kiem-Y-tuong-Du-an-khoi-nghiep-thanh-nien-Can-Tho-Nam-2024-527/)<br>
 🎖️ Potential startup project at [<b>The contest "Potential Startup Project" among students of Can Tho University</b>](https://scs.ctu.edu.vn/khoi-nghiep-uom-tao/san-choi-khoi-nghiep/457-thong-bao-phat-dong-cuoc-thi-du-an-khoi-nghiep-tiem-nang-trong-hoc-sinh-sinh-vien-truong-dai-hoc-can-tho-mo-rong-nam-2024)<br> 
 🎖️ Potential startup project funded at [<b>The Dariu Foundation</b>](https://dariu.org/)<br>
-
-# &nbsp;
-
-<img align="right" width="230" src="https://github.com/user-attachments/assets/2042ea7e-de0f-41c4-9d61-6d1f4b2c8c2c">
-<img align="center" width="720" src="https://github.com/user-attachments/assets/d54c3225-4f58-4eb8-983e-0f6e95f9ba42">
 
 # 🎯 Activities
 
@@ -95,12 +73,6 @@
 </table>
 
 # 📝 Certificates
-
-<img align="left" width="470" src="https://github.com/user-attachments/assets/f4190cc0-16a1-4297-a145-7af4b8b5c058">
-<img align="left" width="470" src="https://github.com/user-attachments/assets/f4190cc0-16a1-4297-a145-7af4b8b5c058">
-
-# &nbsp;
-<img align="right" width="70" src="https://i.imgur.com/S7Ia9a3.gif">
 
 <p align="left">
 <b>©</b><b><i>Website designed by Ly Dang Thanh Dat</i></b>
