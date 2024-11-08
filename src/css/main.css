@@ -1,0 +1,341 @@
+/* này là font chữ */
+@import url(./font.css);
+/* boostrap */
+@import url(../../vender/boostrap-5/css/bootstrap.min.css);
+/* icons */
+@import url(../../vender/icons/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css);
+/* này là các biến cho thiết kế */
+@import url(./root.css);
+/* này là header và footer */
+@import url(./partials.css);
+/* này là css trang chủ */
+@import url(./main-page.css);
+/* này là trang tài khoản */
+@import url(./auth.css);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "cabin";
+}
+
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:"cabin";
+  }
+  
+  /* Main form container styling */
+  .form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #000000;
+  }
+  
+  .form-header p {
+    margin-bottom: 1.5rem;
+    color: #666;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .option-group label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+    color: #000000;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #4CAF50;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #thankYouMessage {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #34a853;
+    text-align: center;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Đặt cấu trúc cơ bản cho trang */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Phần tiêu đề */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Phần bảng xếp hạng sản phẩm */
+section.ranking {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+/* Danh sách sản phẩm */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Hiệu ứng chuyển động mượt mà */
+}
+
+/* Hiệu ứng hover khi di chuột qua sản phẩm */
+li:hover {
+    background-color: #f0f8ff;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Khi sản phẩm đã được chọn */
+.selected {
+    background-color: #4CAF50;
+    color: white;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* Phần chọn sản phẩm để bỏ phiếu */
+section.vote {
+    margin: 20px 0;
+}
+
+select {
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+/* Hiệu ứng khi hover qua dropdown */
+select:hover {
+    border-color: #4CAF50;
+}
+
+/* Nút bỏ phiếu */
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+}
+
+/* Hiệu ứng khi hover qua nút */
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+/* Khi nút bị nhấn (đã bỏ phiếu) */
+button:active {
+    background-color: #388e3c;
+    transform: scale(0.95);
+}
+
+/* Phần chân trang */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1em;
+    color: #777;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #888;
+}
+
+/* Tạo khoảng cách giữa các phần */
+.vote {
+    margin-bottom: 20px; /* Tạo khoảng cách giữa các phần bình chọn */
+}
+
+/* Tạo khoảng cách giữa các nhóm bình chọn (món ăn và thức uống) */
+.vote:nth-child(odd) {
+    margin-bottom: 40px; /* Tăng khoảng cách cho phần bình chọn món ăn */
+}
+
+/* Tạo khoảng cách giữa các nhóm bảng xếp hạng */
+.ranking {
+    margin-bottom: 40px; /* Tạo khoảng cách giữa bảng xếp hạng món ăn và thức uống */
+}
+
+/* Thêm kiểu dáng cho các phần chọn món */
+select {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Thêm kiểu dáng cho nút bình chọn */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+

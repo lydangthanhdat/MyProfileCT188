@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">    
+    <link rel="shortcut icon" href="../img/logo-1.jpg" type="image/x-icon">
+    <title>Trang chủ</title>
+</head>
+<body>
+    <head>
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">
+                <img src="../img/logo-1.jpg" alt="">
+                <span class="nav-name">CTF</span>
+            </a>
+            <div class="nav-menu">
+                <div class="menu-icon">
+                    <i class="bi bi-list"></i>
+                </div>
+                <ul class="menu">
+                    <li>
+                        <form action="#" method="GET" class="navbar-search">
+                            <label for="navbar-search" class="search-wrapper">
+                                <i class="bi bi-search"></i>
+                                <input id="navbar-search" type="search" placeholder="Nhập từ khoá" autocomplete="off">
+                            </label>
+                        </form>
+                    </li>
+                    <li>
+                        <a href="">Món ăn</a>
+                    </li>
+                    <li>
+                        <a href="">Thức uống</a>
+                    </li>
+                    <li>
+                        <a href="">Địa điểm</a>
+                    </li>
+                    <li>
+                        <a href="">Phản hổi</a>
+                    </li>
+                    <li>
+                        <a href="auth.html">
+                            <i class="bi bi-person-circle"></i>
+                            <span>Tài khoản</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </head>
+    <main>
+        <div class="container-fluid p-0">
+            <div class="row position-relative m-0 p-0">
+                <div class="col-lg-2 position-sticky" style="padding: 0; top: 78px; z-index: 10;">
+                    <div class="left-layout">
+                        <button class="sub-title page-controls d-lg-none d-md-none">
+                            <span>Điều hướng</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <h3 class="sub-title d-none d-lg-block d-md-block">Điều hướng</h3>
+                        <ul class="left-menu menu-list d-none d-md-block">
+                            <li class="menu-item">
+                                <a href="#foods">Thực phẩm</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#drinks">Đồ uống</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#special">Đặc sản</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-sm-12 p-0 m-0">
+                    <div class="right-layout">
+                        <div class="slide-container">
+                            <div class="slide-wrapper">
+                                <div id="carouselExample" class="carousel slide">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="../img/main-page/banh-xeo.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="content-container">
+                            <!-- *phần món ăn  -->
+                            <div class="title-wrapper-fill d-flex flex-column justify-content-between align-items-center">
+                                <h1 id="foods" class="title">Món ăn</h1>
+                                <a href="" class="title-location d-flex align-items-center">
+                                    <span>Xem tất cả</span>
+                                    <i class="bi bi-caret-right-fill"></i>
+                                </a>
+                            </div>
+                            <div class="title-wrapper d-flex justify-content-between align-items-center">
+                                <h1 class="title">Món đặc trưng</h1>
+                                <a href="" class="title-location d-flex align-items-center">
+                                    <span>Xem tất cả</span>
+                                    <i class="bi bi-caret-right-fill"></i>
+                                </a>
+                            </div>
+                            <div class="products-container row m-0 p-0">
+                               <section class="product-wrapper col-lg-3 col-md-4 col-sm-6">
+                                    <div class="product-content">
+                                        <div class="wrapper-img">
+                                            <img src="../img/main-page/banh-canh-cua.jpg" alt="">
+                                        </div>
+                                        <div class="wrapper-content">
+                                            <h3 class="content-title">Bánh canh cua</h3>
+                                            <p class="content-description">Bánh canh cua là một món ăn đặc sản Việt Nam,
+                                                một bát bánh canh cua thường bao gồm thịt cua tươi ngọt, tôm, 
+                                                chả cá, và đôi khi còn thêm cả nấm rơm, tạo nên hương vị độc đáo và hấp dẫn.</p>
+                                        </div>
+                                        <div class="wrapper-controls">
+                                            <span class="view">
+                                                <i class="bi bi-eye-fill"></i>
+                                                4.7k
+                                            </span>
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                    </div>
+                               </section> 
+
+                               <section class="product-wrapper col-lg-3 col-md-4 col-sm-6">
+                                    <div class="product-content">
+                                        <div class="wrapper-img">
+                                            <img src="../img/main-page/banh-xeo-2.jpg" alt="">
+                                        </div>
+                                        <div class="wrapper-content">
+                                            <h3 class="content-title">Bánh xèo</h3>
+                                            <p class="content-description">Bánh xèo là một món ăn truyền thống nổi tiếng của Việt Nam, 
+                                                đặc biệt phổ biến ở các tỉnh miền Trung và miền Nam. Bánh xèo được làm từ bột gạo, nước cốt dừa, và nghệ, 
+                                                tạo nên màu vàng hấp dẫn. Nhân bánh thường bao gồm tôm, thịt heo, giá đỗ, và hành lá.</p>
+                                        </div>
+                                        <div class="wrapper-controls">
+                                            <span class="view">
+                                                <i class="bi bi-eye-fill"></i>
+                                                2.8k
+                                            </span>
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <section class="product-wrapper col-lg-3 col-md-4 col-sm-6">
+                                    <div class="product-content">
+                                        <div class="wrapper-img">
+                                            <img src="../img/main-page/pho.jpg" alt="">
+                                        </div>
+                                        <div class="wrapper-content">
+                                            <h3 class="content-title">Phở</h3>
+                                            <p class="content-description">Bánh xèo là một món ăn truyền thống nổi tiếng của Việt Nam, 
+                                                đặc biệt phổ biến ở các tỉnh miền Trung và miền Nam. Bánh xèo được làm từ bột gạo, nước cốt dừa, và nghệ, 
+                                                tạo nên màu vàng hấp dẫn. Nhân bánh thường bao gồm tôm, thịt heo, giá đỗ, và hành lá.</p>
+                                        </div>
+                                        <div class="wrapper-controls">
+                                            <span class="view">
+                                                <i class="bi bi-eye-fill"></i>
+                                                2.8k
+                                            </span>
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                    </div>
+                                </section>
+                                
+                                <section class="product-wrapper col-lg-3 col-md-4 col-sm-6">
+                                    <div class="product-content">
+                                        <div class="wrapper-img">
+                                            <img src="../img/main-page/com-tam.jpg" alt="">
+                                        </div>
+                                        <div class="wrapper-content">
+                                            <h3 class="content-title">Cơm tấm</h3>
+                                            <p class="content-description">Cơm tấm là một món ăn truyền thống nổi tiếng của miền Nam Việt Nam, 
+                                                thường được phục vụ với các loại thịt nướng như sườn heo, bì (da heo thái sợi), chả trứng, trứng ốp la, 
+                                                và nhiều loại dưa chua, rau sống.</p>
+                                        </div>
+                                        <div class="wrapper-controls">
+                                            <span class="view">
+                                                <i class="bi bi-eye-fill"></i>
+                                                12.2k
+                                            </span>
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="product-wrapper col-lg-3 col-md-4 col-sm-6">
+                                    <div class="product-content">
+                                        <div class="wrapper-img">
+                                            <img src="../img/main-page/banh-uot.jpg" alt="">
+                                        </div>
+                                        <div class="wrapper-content">
+                                            <h3 class="content-title">Bánh ướt</h3>
+                                            <p class="content-description">Bánh xèo là một món ăn truyền thống nổi tiếng của Việt Nam, 
+                                                đặc biệt phổ biến ở các tỉnh miền Trung và miền Nam. Bánh xèo được làm từ bột gạo, nước cốt dừa, và nghệ, 
+                                                tạo nên màu vàng hấp dẫn. Nhân bánh thường bao gồm tôm, thịt heo, giá đỗ, và hành lá.</p>
+                                        </div>
+                                        <div class="wrapper-controls">
+                                            <span class="view">
+                                                <i class="bi bi-eye-fill"></i>
+                                                2.8k
+                                            </span>
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="product-wrapper col-lg-3 col-md-4 col-sm-6">
+                                    <div class="product-content">
+                                        <div class="wrapper-img">
+                                            <img src="../img/main-page/mi-cay.jpg" alt="">
+                                        </div>
+                                        <div class="wrapper-content">
+                                            <h3 class="content-title">Mì cay</h3>
+                                            <p class="content-description">
+                                                Mì cay là một món ăn phổ biến và được yêu thích ở nhiều nơi trên thế giới, 
+                                                đặc biệt là ở Hàn Quốc và Việt Nam.</p>
+                                        </div>
+                                        <div class="wrapper-controls">
+                                            <span class="view">
+                                                <i class="bi bi-eye-fill"></i>
+                                                2.8k
+                                            </span>
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- *phần thức uống -->
+                            <div class="title-wrapper-fill d-flex flex-column justify-content-between align-items-center">
+                                <h1 id="drinks" class="title">Thức uống</h1>
+                                <a href="" class="title-location d-flex align-items-center">
+                                    <span>Xem tất cả</span>
+                                    <i class="bi bi-caret-right-fill"></i>
+                                </a>
+                            </div>
+                            <div class="title-wrapper d-flex justify-content-between align-items-center">
+                                <h1 class="title">Thức uống phổ biến</h1>
+                                <a href="" class="title-location d-flex align-items-center">
+                                    <span>Xem tất cả</span>
+                                    <i class="bi bi-caret-right-fill"></i>
+                                </a>
+                            </div>
+                            <div class="products-container row m-0 p-0">
+                               <section class="product-wrapper col-lg-3 col-md-4 col-sm-6">
+                                    <div class="product-content">
+                                        <div class="wrapper-img">
+                                            <img src="../img/main-page/tra-sua.jpg" alt="">
+                                        </div>
+                                        <div class="wrapper-content">
+                                            <h3 class="content-title">Trà sữa</h3>
+                                            <p class="content-description">trà sữa trân châu, là một thức uống phổ biến bắt nguồn từ Đài Loan và đã nhanh chóng 
+                                                lan rộng ra nhiều quốc gia trên thế giới. 
+                                                Trà sữa thường gồm các thành phần chính như trà (trà đen, trà xanh hoặc trà ô long), 
+                                                sữa hoặc bột sữa, và các hạt trân châu (bột sắn) dai ngon.</p>
+                                        </div>
+                                        <div class="wrapper-controls">
+                                            <span class="view">
+                                                <i class="bi bi-eye-fill"></i>
+                                                4.7k
+                                            </span>
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                    </div>
+                               </section>
+                               
+                               <section class="product-wrapper col-lg-3 col-md-4 col-sm-6">
+                                    <div class="product-content">
+                                        <div class="wrapper-img">
+                                            <img src="../img/main-page/caffee.jpg" alt="">
+                                        </div>
+                                        <div class="wrapper-content">
+                                            <h3 class="content-title">Cà phê</h3>
+                                            <p class="content-description">
+                                                Cà phê là một thức uống được ưa chuộng trên khắp thế giới, đặc biệt tại Việt Nam. 
+                                                Với hương vị đậm đà và phong phú, cà phê không chỉ là một thức uống, 
+                                                mà còn là một phần của văn hóa và lối sống của nhiều người.</p>
+                                        </div>
+                                        <div class="wrapper-controls">
+                                            <span class="view">
+                                                <i class="bi bi-eye-fill"></i>
+                                                4.7k
+                                            </span>
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="product-wrapper col-lg-3 col-md-4 col-sm-6">
+                                    <div class="product-content">
+                                        <div class="wrapper-img">
+                                            <img src="../img/main-page/nuoc-mia.jpg" alt="">
+                                        </div>
+                                        <div class="wrapper-content">
+                                            <h3 class="content-title">Nước mía</h3>
+                                            <p class="content-description">
+                                                Nước mía là một thức uống giải khát tự nhiên và rất phổ biến ở Việt Nam, đặc biệt trong những ngày hè nóng bức. 
+                                                Nước mía được làm từ cây mía, ép lấy nước ngọt mát và thường được phục vụ kèm với một 
+                                                lát chanh hoặc chút muối để tăng thêm hương vị.</p>
+                                        </div>
+                                        <div class="wrapper-controls">
+                                            <span class="view">
+                                                <i class="bi bi-eye-fill"></i>
+                                                4.7k
+                                            </span>
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>  
+                        </div>
+
+                        <!-- bố cục 2 -->
+                        <div class="content-container">
+                               <!-- *phần đặc sản -->
+                               <div class="title-wrapper-fill d-flex flex-column justify-content-between align-items-center">
+                                    <h1 id="special" class="title">Đặc sản</h1>
+                                    <a href="" class="title-location d-flex align-items-center">
+                                        <span>Xem tất cả</span>
+                                        <i class="bi bi-caret-right-fill"></i>
+                                    </a>
+                                </div>
+
+                                <div class="products-container row justify-content-evenly m-0">
+                                    <section class="product-wrapper col-lg-3 col-md-4 col-sm-6">
+                                        <div class="product-content">
+                                            <div class="wrapper-img">
+                                                <img src="../img/main-page/banh-canh-cua.jpg" alt="">
+                                            </div>
+                                            <div class="wrapper-content">
+                                                <h3 class="content-title">Trà sữa</h3>
+                                                <p class="content-description">Bánh canh cua là một món ăn đặc sản Việt Nam,
+                                                    một bát bánh canh cua thường bao gồm thịt cua tươi ngọt, tôm, 
+                                                    chả cá, và đôi khi còn thêm cả nấm rơm, tạo nên hương vị độc đáo và hấp dẫn.</p>
+                                            </div>
+                                            <div class="wrapper-controls">
+                                                <span class="view">
+                                                    <i class="bi bi-eye-fill"></i>
+                                                    4.7k
+                                                </span>
+                                                <i class="bi bi-heart"></i>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section class="product-wrapper col-lg-3 col-md-4 col-sm-6">
+                                        <div class="product-content">
+                                            <div class="wrapper-img">
+                                                <img src="../img/main-page/banh-canh-cua.jpg" alt="">
+                                            </div>
+                                            <div class="wrapper-content">
+                                                <h3 class="content-title">Trà sữa</h3>
+                                                <p class="content-description">Bánh canh cua là một món ăn đặc sản Việt Nam,
+                                                    một bát bánh canh cua thường bao gồm thịt cua tươi ngọt, tôm, 
+                                                    chả cá, và đôi khi còn thêm cả nấm rơm, tạo nên hương vị độc đáo và hấp dẫn.</p>
+                                            </div>
+                                            <div class="wrapper-controls">
+                                                <span class="view">
+                                                    <i class="bi bi-eye-fill"></i>
+                                                    4.7k
+                                                </span>
+                                                <i class="bi bi-heart"></i>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+
+                                <!-- *phần địa điểm -->
+                               <div class="title-wrapper-fill d-flex flex-column justify-content-between align-items-center">
+                                    <h1 id="special" class="title">Địa điểm</h1>
+                                    <a href="" class="title-location d-flex align-items-center">
+                                        <span>Xem tất cả</span>
+                                        <i class="bi bi-caret-right-fill"></i>
+                                    </a>
+                                </div>
+
+                                <div class="products-container row justify-content-evenly m-0">
+                                    <section class="product-wrapper col-lg-3 col-md-4 col-sm-6">
+                                        <div class="product-content product-located">
+                                            <div class="wrapper-img">
+                                                <img src="../img/main-page/itada-logo.jpg" alt="">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62855.050151681324!2d105.70176405133455!3d10.062934651563504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a089215a6f7f41%3A0x8457f51fa57734bd!2zTcOsIENheSBJVEFEQSAtIE5ndXnhu4VuIFbEg24gQ-G7qw!5e0!3m2!1svi!2s!4v1730724677402!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            </div>
+                                            <div class="wrapper-content">
+                                                <h3 class="content-title">Mì cay Itada</h3>
+                                                <p class="content-description">Bánh canh cua là một món ăn đặc sản Việt Nam,
+                                                    một bát bánh canh cua thường bao gồm thịt cua tươi ngọt, tôm, 
+                                                    chả cá, và đôi khi còn thêm cả nấm rơm, tạo nên hương vị độc đáo và hấp dẫn.</p>
+                                            </div>
+                                            <div class="wrapper-controls">
+                                                <span class="view">
+                                                    <i class="bi bi-eye-fill"></i>
+                                                    4.7k
+                                                </span>
+                                                <i class="bi bi-heart"></i>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section class="product-wrapper col-lg-3 col-md-4 col-sm-6">
+                                        <div class="product-content product-located">
+                                            <div class="wrapper-img">
+                                                <img src="../img/main-page/buffet.jpg" class="" alt="">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d502848.99953215395!2d105.16948108906249!3d10.057412300000026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a087acd060810f%3A0xbed487c01cb6f607!2zQ2h14buXaSBCdWZmZXQgTOG6qXUgdsOgIE7GsOG7m25nIEPDtCAzIEPDsmlfIEPhuqduIFRoxqE!5e0!3m2!1svi!2s!4v1730727505465!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            </div>
+                                            <div class="wrapper-content">
+                                                <h3 class="content-title">Buffet cô ba Còi</h3>
+                                                <p class="content-description">Bánh canh cua là một món ăn đặc sản Việt Nam,
+                                                    một bát bánh canh cua thường bao gồm thịt cua tươi ngọt, tôm, 
+                                                    chả cá, và đôi khi còn thêm cả nấm rơm, tạo nên hương vị độc đáo và hấp dẫn.</p>
+                                            </div>
+                                            <div class="wrapper-controls">
+                                                <span class="view">
+                                                    <i class="bi bi-eye-fill"></i>
+                                                    4.7k
+                                                </span>
+                                                <i class="bi bi-heart"></i>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!DOCTYPE html>
+                                    <html lang="en">
+                                    <head>
+                                      <meta charset="UTF-8">
+                                      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                      <title>Simple Google-Like Form</title>
+                                      <link rel="stylesheet" href="style.css">
+                                    </head>
+                                    <body>
+                                    
+                                    <div class="title-wrapper-fill d-flex flex-column justify-content-between align-items-center">
+                                        <h1 id="special" class="title">Phản hồi</h1>
+                                        <a href="" class="title-location d-flex align-items-center">
+                                        </a>
+                                    </div>
+                                <div class="form-container">
+                                        <div class="form-header">
+                                          <h3>NẾU BẠN CÓ THẮC MẮC CẦN ĐƯỢC GIẢI ĐÁP</h3>
+                                          <p>Vui lòng điền vào biểu mẫu dưới đây:</p>
+                                </div>
+                                      <form id="surveyForm">
+                                        <!-- Short Answer Question -->
+                                        <div class="form-group">
+                                          <label for="name">Hãy cho chúng tôi biết bạn đến từ đâu?</label>
+                                          <input type="text" id="name" name="name" placeholder="Your answer" required>
+                                        </div>
+                                    
+                                        <!-- Long Answer Question -->
+                                        <div class="form-group">
+                                          <label for="feedback">Hãy giúp chúng tôi hiểu rõ hơn về vấn đề bạn đang gặp phải.</label>
+                                          <textarea id="feedback" name="feedback" placeholder="Your answer" required></textarea>
+                                        </div>
+                                    
+                                        <!-- Multiple Choice Question -->
+                                        <div class="form-group">
+                                            <label>Bạn biết đến trang qua kênh truyền thông nào?</label>
+                                            <div class="option-group">
+                                              <label><input type="checkbox" name="source" value="Friends"> Bạn bè</label>
+                                              <label><input type="checkbox" name="source" value="Social Media"> Mạng xã hội</label>
+                                              <label><input type="checkbox" name="source" value="Advertisement"> Truyền hình</label>
+                                            </div>
+                                          </div>
+
+                                        <!-- Submit Button -->
+                                        <button type="submit">Gửi</button>
+                                      </form>
+                                      
+                                      <div id="thankYouMessage" class="hidden">Cảm ơn bạn đã gửi phản hồi đến chúng tôi!</div>
+                                    </div>
+                                    
+                                    <script src="script.js"></script>                                                             
+                                </div>
+                            <div class="title-wrapper-fill d-flex flex-column justify-content-between align-items-center">
+                                    <h1 id="special" class="title">BẢNG XẾP HẠNG YÊU THÍCH</h1>
+                                    <a href="" class="title-location d-flex align-items-center">
+                                    </a>
+                            </div>
+                                    <div class="container">
+                                        <section class="ranking">
+                                            <ul id="product-list">
+
+                                                    <div class="container">
+                                                        <!-- Bảng Xếp Hạng Món Ăn -->
+                                                        <section class="ranking">
+                                                            <ul id="product-list-food">
+                                                                <!-- Các sản phẩm món ăn sẽ được hiển thị tại đây -->
+                                                            </ul>
+                                                        </section>
+                                                
+                                                        <!-- Bình Chọn Món Ăn -->
+                                                        <section class="vote">
+                                                            <h2>Bình Chọn Món Ăn Yêu Thích</h2>
+                                                            <p>Chọn một món ăn để bỏ phiếu:</p>
+                                                            <select id="product-selector-food">
+                                                                <option value="">Chọn món ăn</option>
+                                                            </select>
+                                                            <button id="vote-button-food">Bỏ Phiếu</button>
+                                                        </section>
+
+                                                        <!-- Bảng Xếp Hạng Thức Uống -->
+                                                        <section class="ranking">
+                                                            <ul id="product-list-drink">
+                                                                <!-- Các sản phẩm thức uống sẽ được hiển thị tại đây -->
+                                                            </ul>
+                                                        </section>
+                                                
+                                                        <!-- Bình Chọn Thức Uống -->
+                                                        <section class="vote">
+                                                            <h2>Bình Chọn Thức Uống Yêu Thích</h2>
+                                                            <p>Chọn một thức uống để bỏ phiếu:</p>
+                                                            <select id="product-selector-drink">
+                                                                <option value="">Chọn thức uống</option>
+                                                            </select>
+                                                            <button id="vote-button-drink">Bỏ Phiếu</button>
+                                                        </section>
+                                                    </div>
+                                                
+                                                    <footer>
+                                                        <p>&copy; 2024 Bảng Xếp Hạng Món Ăn và Thức Uống</p>
+                                                    </footer>
+                                                
+                                                    <script src="script.js"></script>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-wrapper">
+                <h3 class="footer-title">Group 3</h3>
+                <p class="footer-des">
+                    Leader: Võ Minh Hiếu B2303811 <br>
+                    Member: Lý Đặng Thành Đạt -  <br>
+                    Member: Nguyễn Công Chức - B2303800 <br>
+                    Collage: CTU - Can Tho University <br>
+                    Subject: Nhập môn lập trình Web - CT188
+                </p>
+            </div>
+            <div class="footer-wrapper">
+                <h3 class="footer-title">Kết nối</h3>
+                <ul class="footer-list">
+                    <li>
+                        <a href="">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="">Tiktok</a>
+                    </li>
+                    <li>
+                        <a href="">Github</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-wrapper">
+                <h3 class="footer-title">Công nghệ</h3>
+                <ul class="footer-list">
+                    <li>
+                        <a href="">Boostrap</a>
+                    </li>
+                    <li>
+                        <a href="">Jquery</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-wrapper">
+                <h3 class="footer-title">Slogan</h3>
+                <p class="footer-des">
+                    1. Yêu tổ quốc yêu đồng bào. <br>
+                    2. Học tập tốt, lao động tốt. <br>
+                    3. Đoàn kết tốt, kỉ luật tốt. <br>
+                    4. Giữ gìn vệ sinh thật tốt. <br>
+                    5. Khiêm tốn, thật thà, dũng cảm. <br>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- *javascripts -->
+    <!-- boostrap -->
+    <script src="../../vender/boostrap-5/js/bootstrap.bundle.min.js"></script> 
+    <!-- partials -->
+     <script src="../js/partials.js"></script>
+     <!-- main-page -->
+      <script src="../js/main-page.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+[
+  {
+    "product": "foods",
+    "data": [
+      {
+        "name": "Bánh canh cua",
+        "description": "Bánh canh cua là một món ăn đặc sản Việt Nam, đặc biệt phổ biến ở miền Nam. Đây là một loại súp dày, với nước dùng đậm đà từ cua và hải sản, cùng với những sợi bánh canh dai ngon làm từ bột gạo hoặc bột lọc. Một bát bánh canh cua thường bao gồm thịt cua tươi ngọt, tôm, chả cá, và đôi khi còn thêm cả nấm rơm, tạo nên hương vị độc đáo và hấp dẫn.Món ăn này không chỉ làm say lòng người dân địa phương mà còn thu hút nhiều du khách quốc tế bởi hương vị đậm đà, thơm ngon và bổ dưỡng. Bạn đã từng thử món bánh canh cua này chưa? Nếu chưa, đó chắc chắn là một trải nghiệm ẩm thực bạn không muốn bỏ lỡ!",
+        "img": [
+            "banh-canh-cua-1.đui-file",
+            "ban-canh-cua-2.đui-file",
+            "....."
+        ]
+      },
+      {
+        "name": "",
+        "description": "",
+        "img": [
+            "....."
+        ]
+      }
+    ]
+  },
+  {
+    "product": "drinks",
+    "data": [
+        "...."
+    ]
+  }
+]
