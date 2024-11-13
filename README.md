@@ -17,7 +17,6 @@
 🏠 Lives in <b>Can Tho City</b>
 <br>
 📞 Phone Number: <b>0706 784 847 - 0333 505 030</b> 
-<br>
 
 <br/>
 
